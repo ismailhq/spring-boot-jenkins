@@ -14,7 +14,7 @@ class SpringBootJenkinsApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("Test logging three from test class......");
-		logger.info("Test logging four from test class second time......");
+		logger.info("Test logging four from test class second time.........");
 		assertEquals(true, true);
 	}
 
