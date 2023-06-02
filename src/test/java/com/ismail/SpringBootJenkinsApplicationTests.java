@@ -1,5 +1,7 @@
 package com.ismail;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +14,8 @@ class SpringBootJenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test logging three from test class......");
+		logger.info("Test logging four from test class second time......");
+		assertEquals(true, true);
 	}
 
 }

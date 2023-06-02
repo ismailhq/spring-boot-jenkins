@@ -15,7 +15,7 @@ public class SpringBootJenkinsApplication {
 	private static Logger logger=LoggerFactory.getLogger(SpringBootJenkinsApplication.class);
 
 	public static void main(String[] args) {
-		logger.info("Test logging two from main......");
+		logger.info("Test logging two from main method......");
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	}
 	
