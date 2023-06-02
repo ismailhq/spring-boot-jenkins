@@ -22,7 +22,7 @@ public class SpringBootJenkinsApplication {
 	@RequestMapping("/greeting")
 	public String greeting() {
 		System.out.println("Inside greeting()=====>>>>");
-		return "Greetings from jenkins demo project";
+		return "Greetings from jenkins demo project...after integration with docker hub";
 	}
 
 }
